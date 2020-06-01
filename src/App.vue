@@ -1,13 +1,21 @@
 <template>
-  <div id="app">
+  <div id="app" class="container w-10/12 mx-auto">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Find Hostels</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+<script>
+export default {
+  data() {
+      return {
 
+      }
+  },
+  
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
