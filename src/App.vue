@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container w-10/12 mx-auto">
     <div id="nav">
-      <router-link to="/">Find Hostels</router-link>
+      <router-link to="/" class="text-5xl">Find Hostels</router-link>
     </div>
     <router-view/>
   </div>
