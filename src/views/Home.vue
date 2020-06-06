@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container md:w-6/12 md:mx-auto md:flex md:flex-row md:content-center md:items-center md:pt-6 md:px-4">
     <div class="mb-4">
       <Cities />
     </div>
@@ -7,7 +7,7 @@
       <Townships />
       <!-- <button @click.prevent="findHostel" type="submit" class="flex-none block bg-green-500 mx-auto text-center text-white py-2 px-4 rounded outline-none shadow hover:bg-green-700 mt-6 w-2/6"><i class="fas fa-search"></i> Find</button> -->
     </div>
-    <div class="mt-2">
+    <!-- <div class="mt-2">
       <h2 class="text-2xl">Dormitory Rooms</h2>
       <fieldset class="border p-4 h-auto">
         <legend class="text-left">Available Lists</legend>
@@ -15,21 +15,21 @@
           <Hostels />
         </div>
       </fieldset>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
 // @ is an alias to /src
 import Cities from '@/components/Cities.vue'
 import Townships from '@/components/Townships.vue'
-import Hostels from '@/components/Hostels.vue'
+// import Hostels from '@/components/Hostels.vue'
 
 export default {
   name: 'Home',
   components: {
     Cities,
     Townships,
-    Hostels
+    // Hostels
   }
 }
 </script>
