@@ -1,24 +1,12 @@
 # asaung-app
 
-## Project setup
-```
-npm install
-```
+## vuejs with vuex
+- အဆောင်ရှာ App ၏ front-end ပိုင်းကိုတော့ စလေ့လာဆဲ ဖြစ်တဲ့ vuejs with vuex ကို သုံးထားပါတယ်။
+- css utilities တွက်ကတော့ စလေ့လာနေဆဲ ဖြစ်တဲ့ tailwindcss ကိုသုံးထားပါတယ်
 
-### Compiles and hot-reloads for development
+### for testing
 ```
+npm install or npm i
 npm run serve
-```
 
-### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
